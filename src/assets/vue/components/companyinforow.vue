@@ -11,26 +11,27 @@
       class="company-info-row-icon"
     />
     <div class="company-info-row-values">
-      <p
+      <div
         v-show="tel"
         v-for="(item, index) in value"
         :key="index"
-        :href="`tel:${item}`"
-        @click="() => openTel(item)"
+        @click="openTel(item)"
         class="company-info-row-value external"
       >
         {{ item }}
-      </p>
-      <a
-        v-show="browser"
-        v-for="item in value"
-        :key="item"
-        :href="item"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="company-info-row-value external"
-        >{{ item }}</a
-      >
+      </div>
+      <div>
+        <f7-link
+          v-show="browser"
+          v-for="item in value"
+          :key="item"
+          :href="'http://' + item"
+          external
+          class="company-info-row-value external"
+          style="padding-left: 60px;"
+          >{{ item }}
+        </f7-link>
+      </div>
     </div>
   </div>
 </template>

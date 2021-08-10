@@ -167,7 +167,7 @@ export default {
           status: 'active',
           phone: this.phone,
           // если дата рождения не указана, не добавляем поле
-          ...(this.birthday && { birthday: this.birthday }),
+          ...(this.birthday && { birthday: this.birthday + 'T00:00:00.000Z' }),
           // если e-mail рождения не указан, не добавляем поле
           ...(this.email && { email: this.email })
         })

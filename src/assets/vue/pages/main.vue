@@ -50,6 +50,7 @@
       </div>
 
       <f7-swiper
+        v-if="promos.length"
         :style="'height: 112px; margin-bottom: 30px;'"
         :class="active === 1 ? 'animated' : ''"
         pagination
@@ -142,6 +143,7 @@ export default {
 
   async mounted() {
     document.addEventListener('deviceready', (e) => {
+      window.open = cordova.InAppBrowser.open
       const channel = localStorage.getItem('pushChannel')
       // подписываемся на канал уведомлений Firebase
       if (channel) {

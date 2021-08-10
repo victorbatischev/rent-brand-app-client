@@ -58,46 +58,22 @@
       </div>
 
       <div class="info-company-social">
-        <a
-          v-if="vkUrl"
-          class="external"
-          :href="vkUrl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <f7-link v-if="vkUrl" :href="vkUrl" external>
           <img :src="vk.default" class="info-company-social-icon" />
-        </a>
-        <a
-          v-if="fbUrl"
-          class="external"
-          :href="fbUrl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </f7-link>
+        <f7-link v-if="fbUrl" :href="fbUrl" external>
           <img :src="fb.default" class="info-company-social-icon" />
-        </a>
-        <a
-          v-if="instUrl"
-          class="external"
-          :href="instUrl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </f7-link>
+        <f7-link v-if="instUrl" :href="instUrl" external>
           <img :src="inst.default" class="info-company-social-icon" />
-        </a>
-        <a
-          v-if="ytUrl"
-          class="external"
-          :href="ytUrl"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        </f7-link>
+        <f7-link v-if="ytUrl" :href="ytUrl" external>
           <img :src="youtube.default" class="info-company-social-icon" />
-        </a>
+        </f7-link>
       </div>
 
       <div class="info-company-map">
-        <yandex-map :controls="[]" class="info-map" :coords="coords" zoom="10">
+        <yandex-map class="info-map" :coords="coords" zoom="2" show-all-markers>
           <ymap-marker
             v-for="(item, index) in markers"
             :key="index"
@@ -123,6 +99,7 @@ export default {
     InfoCompanyRow,
     AppBar
   },
+
   data() {
     return {
       CONFIG,
@@ -142,6 +119,7 @@ export default {
       markers: []
     }
   },
+
   mounted() {
     query
       .get(`${CONFIG.API_URL}company/${CONFIG.COMPANY_ID}`)
@@ -153,17 +131,16 @@ export default {
         this.instUrl = res.data.ig || null
         this.ytUrl = res.data.youtube || null
         this.description = res.data.description
-        if (this.place) {
-          await this.getGeoData(this.place)
-        }
       })
 
     query
       .get(`${CONFIG.API_URL}company/${CONFIG.COMPANY_ID}/addresses`)
       .then(async (res) => {
         this.places = res.data.addresses
+        await this.getGeoData(this.places)
       })
   },
+
   async created() {
     try {
       await loadYmap()
@@ -171,10 +148,12 @@ export default {
       console.log(e)
     }
   },
+
   methods: {
     parseData(data) {
       return data.split(';')
     },
+
     async getGeoData(places) {
       places.map((item, idx) => {
         axios
@@ -182,12 +161,14 @@ export default {
             'https://geocode-maps.yandex.ru/1.x/?apikey=' +
               CONFIG.YANDEX_MAP_API_KEY +
               '&format=json&geocode=' +
-              item
+              item.address
           )
           .then(async (res) => {
             const data =
               res.data.response.GeoObjectCollection.featureMember[0].GeoObject
                 .Point.pos
+
+            console.log(data)
 
             const coords = data.split(' ')
 

@@ -8,7 +8,7 @@ const CONFIG = {
   GUEST_USERNAME: 'guest',
   GUEST_PASSWORD: 'guest',
   USERS_PASS: 'QPM5thXcZt',
-  API_URL: 'https://crm.mob-loyalty.com/api/',
+  API_URL: 'https://crm.rentbrand.app/api/',
   YANDEX_MAP_API_KEY: 'bf0b9302-8f30-4729-9c88-3be86146989c',
   CUSTOM_FONT: 'Roboto'
 }
