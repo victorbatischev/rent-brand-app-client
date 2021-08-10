@@ -59,8 +59,13 @@
       <primary-button class="info-submit-button" title="Сохранить" />
     </form>
     <div class="info-privacy-block">
-      <f7-link @click="openPrivacy" class="info-privacy-text"
-        >Политика конфиденциальности
+      <f7-link
+        v-if="privacy"
+        :href="privacy"
+        external
+        class="info-privacy-text"
+      >
+        Политика конфиденциальности
       </f7-link>
     </div>
   </f7-page>
@@ -136,17 +141,6 @@ export default {
   },
 
   methods: {
-    openPrivacy() {
-      if (this.privacy.length > 0) {
-        window.open(this.privacy, '_system')
-      } else {
-        this.$f7.dialog.alert(
-          'К сожалению, Политика конфиденциальности еще не добавлена',
-          CONFIG.COMPANY_NAME
-        )
-      }
-    },
-
     getDate() {
       return moment(this.birthday).format('DD/MM/YYY')
     },

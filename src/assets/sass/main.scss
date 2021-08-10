@@ -5,7 +5,9 @@
   width: 100%;
   object-fit: contain;
   height: 100px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  background-color: $primary-color;
 }
 
 .card {
@@ -133,7 +135,7 @@ p {
 }
 
 .swiper-pagination-bullets {
-  bottom: -5px !important;
+  bottom: -40px !important;
   left: 0;
   width: 100%;
 }

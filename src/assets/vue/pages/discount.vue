@@ -38,7 +38,7 @@
               :src="
                 promo.files.length > 0
                   ? promo.files[0].url
-                  : require('../../images/mainDiscount.svg').default
+                  : require('../../images/rentbrandapp.svg').default
               "
               class="card-header"
             />

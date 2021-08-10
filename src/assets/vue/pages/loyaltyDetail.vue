@@ -29,9 +29,9 @@
         }}
       </p>
       <p class="loyal-detail-presents-text">
-        {{ data.maxValue || 0 }}
+        {{ data.maxValue + 1 || 0 }}
         {{
-          Utils.declOfNum(Math.ceil(data.maxValue || 0), [
+          Utils.declOfNum(Math.ceil(data.maxValue + 1 || 0), [
             'покупка',
             'покупки',
             'покупок'

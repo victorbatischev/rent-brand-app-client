@@ -51,7 +51,7 @@
 
       <f7-swiper
         v-if="promos.length"
-        :style="'height: 112px; margin-bottom: 30px;'"
+        :style="'height: 112px; margin-bottom: 50px;'"
         :class="active === 1 ? 'animated' : ''"
         pagination
         :params="{
@@ -66,19 +66,18 @@
       >
         <f7-swiper-slide v-for="promo in promos" :key="promo.id">
           <div class="swiper-block">
-            <div>
+            <div
+              style="display: flex; align-items: center; background: #1b0f29;"
+            >
               <img
-                :src="
-                  promo.files.length > 0
-                    ? promo.files[0].url
-                    : require('../../images/mainDiscount.svg').default
-                "
+                style="height: 128px; width: 128px;"
+                :src="require('../../images/rentbrandapp.png').default"
               />
             </div>
             <div class="card-content card-content-padding">
-              <p class="main-card-title">{{ promo.description }}</p>
+              <p class="main-card-title">{{ promo.name }}</p>
               <p class="main-card-description">
-                {{ promo.timeSpending }}
+                {{ promo.description }}
               </p>
             </div>
           </div>
