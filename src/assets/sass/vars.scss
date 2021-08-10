@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+//framework 7
+:root {
+  --f7-touch-ripple-black: transparent;
+  --f7-touch-ripple-white: transparent;
+  --f7-touch-ripple-color: transparent;
+  --f7-card-header-min-height: 165px;
+  --f7-card-header-padding-vertical: 0px;
+  --f7-card-header-padding-horizontal: 0px;
+  --f7-block-margin-vertical: 20px;
+  --f7-toolbar-height: 61px;
+}
+
+$primary-color: #1b0f29;
+$secondary-color: #3d3349;
+$tertiary-color: #f2bb18;
+$text-color: #fff;
+$third-color: #909090;
+$font-family: 'Roboto', serif;
+$custom-font: 'Roboto';

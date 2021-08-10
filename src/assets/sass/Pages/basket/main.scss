@@ -1,0 +1,89 @@
+.basket-item-content {
+  background: #efefef;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  height: 116px;
+
+  .basket-item-image-container {
+    width: 40%;
+    height: 100px;
+    padding: 8px 8px 8px 0;
+  }
+
+  .basket-item-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    animation: showAccordionItemImageContainer 0.6s;
+  }
+
+  .basket-item-text-container {
+    width: 60%;
+    padding-left: 10px;
+
+    .basket-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .basket-counter {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .basket-item-number {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      color: #030303;
+      margin: 10px;
+    }
+
+    .basket-item-text-head,
+    .basket-item-text-count {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #030303;
+    }
+
+    .basket-item-text-count {
+      color: #909090;
+    }
+
+    .basket-item-text,
+    .basket-item-modificator {
+      font-size: 12px;
+      line-height: 16px;
+      color: #030303;
+    }
+
+    .basket-item-modificator {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 20px;
+      color: #909090;
+    }
+
+    .basket-item-price {
+      font-size: 20px;
+      line-height: 20px;
+      color: $primary-color;
+      font-weight: 500;
+      margin-bottom: 5px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.basket-total-price {
+  font-size: 24px;
+  line-height: 24px;
+  color: $primary-color;
+  margin: 30px 0px 20px 20px;
+}

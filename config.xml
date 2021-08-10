@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="rent.brand.app.base" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="android-minSdkVersion" value="22"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="AndroidXEnabled" value="true"/>
+    <preference name="Orientation" value="portrait"/>
+    <preference name="AndroidLaunchMode" value="singleInstance"/>
+    <preference name="resizeOnFullScreen" value="false"/>
+    <hook src="hooks/hookers.js" type="before_prepare"/>
+    <hook src="hooks/beforedep.js" type="before_deploy"/>
+    <name>Base RBA</name>
+    <description>
+        &#x41F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x441; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x43E;&#x439; &#x43B;&#x43E;&#x44F;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438;.  
+        &#x411;&#x440;&#x435;&#x43D;&#x434;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x43E;&#x435; &#x43C;&#x43E;&#x431;&#x438;&#x43B;&#x44C;&#x43D;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x441; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x43E;&#x439; &#x43B;&#x43E;&#x44F;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x430; 99 &#x440;&#x443;&#x431;&#x43B;&#x435;&#x439; &#x432; &#x434;&#x435;&#x43D;&#x44C;.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html"/>
+    <allow-navigation href="*"/>
+    <allow-navigation href="*://*/*"/>
+    <allow-navigation href="file:///*/*"/>
+    <allow-navigation href="http://*/*"/>
+    <allow-navigation href="https://*/*"/>
+    <allow-navigation href="data:*"/>
+    <allow-intent href="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
+    <access origin="*"/>
+    <access origin="*://*/*"/>
+    <access origin="file:///*"/>
+    <access origin="cdvfile://*"/>
+    <access origin="content:///*"/>
+    <access launch-external="yes" origin="tel:*"/>
+     <platform name="android">
+        <allow-intent href="market:*"/>
+        <icon density="ldpi" src="res/icon/android/ldpi.png"/>
+        <icon density="mdpi" src="res/icon/android/mdpi.png"/>
+        <icon density="hdpi" src="res/icon/android/hdpi.png"/>
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png"/>
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
+        <preference name="StatusBarBackgroundColor" value="#f3f3f3"/>
+    </platform>
+    <platform name="ios">
+        <splash src="res/screen/ios/Default@2x~universal~anyany.png"/>
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+        <preference name="KeyboardResizeMode" value="native"/>
+    </platform>
+    <platform name="android">
+        <splash density="hdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+        <splash density="ldpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+        <splash density="mdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+        <splash density="xhdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+        <splash density="xxhdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+    </platform>
+    <platform name="ios">
+        <splash src="res/screen/ios/Default@2x~universal~anyany.png"/>
+    </platform>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysAndWhenInUseUsageDescription">
+        <string>&#x420;&#x430;&#x437;&#x440;&#x435;&#x448;&#x430;&#x435;&#x442;&#x435; &#x443;&#x442;&#x43E;&#x447;&#x43D;&#x44F;&#x442;&#x44C; &#x432;&#x430;&#x448;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;?</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationAlwaysUsageDescription">
+        <string>&#x420;&#x430;&#x437;&#x440;&#x435;&#x448;&#x430;&#x435;&#x442;&#x435; &#x443;&#x442;&#x43E;&#x447;&#x43D;&#x44F;&#x442;&#x44C; &#x432;&#x430;&#x448;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;?</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationUsageDescription">
+        <string>&#x420;&#x430;&#x437;&#x440;&#x435;&#x448;&#x430;&#x435;&#x442;&#x435; &#x443;&#x442;&#x43E;&#x447;&#x43D;&#x44F;&#x442;&#x44C; &#x432;&#x430;&#x448;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;?</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+        <string>&#x420;&#x430;&#x437;&#x440;&#x435;&#x448;&#x430;&#x435;&#x442;&#x435; &#x443;&#x442;&#x43E;&#x447;&#x43D;&#x44F;&#x442;&#x44C; &#x432;&#x430;&#x448;&#x435; &#x43C;&#x435;&#x441;&#x442;&#x43E;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;?</string>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="CFBundleLocalizations">
+        <array>
+            <string>ru</string>
+        </array>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="UIStatusBarHidden">
+        <false/>
+    </edit-config>
+    <edit-config file="*-Info.plist" mode="merge" target="UIViewControllerBasedStatusBarAppearance">
+        <true/>
+    </edit-config>
+<allow-navigation href="*"/></widget>

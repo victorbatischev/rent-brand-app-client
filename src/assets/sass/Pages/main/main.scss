@@ -1,0 +1,144 @@
+.achievements-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px -15px;
+
+  .achievement-block {
+    animation: showAchievementBlock 0.4s;
+
+    @keyframes showAchievementBlock {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.loyalty-info-container {
+  height: 20%;
+  margin-top: 25px;
+
+  .loyalty-info {
+    animation: showLoyaltyInfo 0.8s;
+
+    @keyframes showLoyaltyInfo {
+      0% {
+        transform: translateX(150%);
+      }
+
+      10% {
+        transform: translateX(150%);
+      }
+
+      20% {
+        transform: translateX(150%);
+      }
+
+      30% {
+        transform: translateX(150%);
+      }
+
+      40% {
+        transform: translateX(150%);
+      }
+
+      50% {
+        transform: translateX(150%);
+      }
+
+      from {
+        transform: translateX(150%);
+      }
+      to {
+        transform: translateX(0%);
+      }
+    }
+  }
+}
+
+.loyalty-qrcode {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  animation: showQr 1.3s;
+
+  @keyframes showQr {
+    0% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+
+    10% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+
+    20% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+
+    30% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+
+    40% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+
+    50% {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+
+    from {
+      transform: translateY(150%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .loyalty-qrcode-header {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #030303;
+    margin-top: -10px;
+
+    .loyalty-qrcode-header-primary {
+      color: $secondary-color;
+    }
+  }
+}
+
+.main-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: $primary-color;
+}
+
+.main-card-description {
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.swiper-block {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 1px 10px rgba(40, 22, 77, 0.1);
+}

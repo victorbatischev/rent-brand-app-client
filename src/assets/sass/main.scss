@@ -1,0 +1,206 @@
+@import './vars.scss';
+
+//framework 7
+.card-header {
+  width: 100%;
+  object-fit: contain;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  margin-top: 20px;
+}
+
+.page-content {
+  overflow-x: hidden;
+}
+
+//Global styles
+body {
+  font-family: $font-family !important;
+}
+
+.page {
+  background-color: #f6f6f6;
+  overflow-y: auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  padding: 0 15px;
+  margin: 0;
+}
+
+.page-padding-appbar {
+  width: 100%;
+  height: 100px;
+}
+
+.page-padding-bottom {
+  width: 100%;
+  height: 91px;
+}
+
+.basket-counter {
+  background: red !important;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  border-radius: 10px;
+  padding: 2px 5px;
+  font-weight: bold;
+  margin: 15px -20px -5px 15px;
+  z-index: 9999999;
+  width: fit-content;
+}
+
+.popover-backdrop,
+.popover-angle {
+  display: none;
+}
+
+.popover-menu {
+  background: #ffffff !important;
+  top: 45px !important;
+  left: calc(100% - 195px) !important;
+  width: 175px !important;
+  border-radius: unset !important;
+  box-sizing: border-box;
+}
+
+.popover-menu li,
+.popover-menu a {
+  border-radius: unset !important;
+  text-decoration: none;
+  color: #554555 !important;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.tabs .tab-active {
+  padding-top: 0;
+}
+
+.category-container {
+  display: -webkit-box;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: fixed;
+  top: 80px;
+  z-index: 9999;
+  background: #ffffff;
+}
+
+.category-link-item {
+  padding: 4px 16px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808080;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &.active {
+    background: $primary-color;
+    color: #ffffff;
+  }
+}
+
+.navbar-empty {
+  width: 70px;
+  height: 40px;
+}
+
+.external {
+  width: 70px;
+}
+
+.swiper-pagination-bullets {
+  bottom: -5px !important;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: $primary-color !important;
+  opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: $primary-color !important;
+  opacity: 1;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.7 !important;
+  font-size: 16px;
+}
+
+input:focus::placeholder {
+  color: white;
+  opacity: 1 !important;
+  font-size: 16px;
+}
+
+button:active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0 0);
+}
+
+#category-swiper .swiper-pagination-bullets {
+  bottom: 5000px !important;
+}
+
+//Components styles
+@import './Components/input/main.scss';
+@import './Components/button/main.scss';
+@import './Components/appbar/main.scss';
+@import './Components/preloader/main.scss';
+@import './Components/achievementblock/main.scss';
+@import './Components/loyaltyinfo/main.scss';
+@import './Components/progress/main.scss';
+@import './Components/bottombar/main.scss';
+@import './Components/accordionitem/main.scss';
+@import './Components/companyinforow/main.scss';
+
+//Pages styles
+@import './Pages/login/main.scss';
+@import './Pages/main/main.scss';
+@import './Pages/info/main.scss';
+@import './Pages/profile/main.scss';
+@import './Pages/discount/main.scss';
+@import './Pages/achievementdetail/main.scss';
+@import './Pages/loyaldetail/main.scss';
+@import './Pages/promocode/main.scss';
+@import './Pages/gifts/main.scss';
+@import './Pages/booking/main.scss';
+@import './Pages/history/main.scss';
+@import './Pages/detailed/main.scss';
+@import './Pages/basket/main.scss';
+@import './Pages/order/main.scss';

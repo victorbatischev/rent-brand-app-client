@@ -1,0 +1,74 @@
+.loyal-login-header-block {
+  width: 100%;
+  text-align: center;
+  margin-top: 15%;
+  animation: showLoginBlock 1s;
+
+  .loyal-login-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: $primary-color;
+    font-family: $custom-font;
+  }
+
+  .loyal-login-description {
+    color: $primary-color;
+    margin-top: 10px;
+  }
+}
+
+.loyal-login-block {
+  width: 100%;
+
+  .loyal-login-inputs {
+    margin-top: 40px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .loyal-login-primary-button {
+      margin-top: 20px;
+    }
+
+    .loyal-login-phone-input {
+      width: 100%;
+      margin-top: 8px;
+    }
+
+    .loyal-login-phone-input input {
+      width: 100%;
+      color: #ffffff;
+      background: $secondary-color;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .loyal-login-code-input {
+      width: 100%;
+      margin-top: 8px;
+    }
+
+    .loyal-login-code-input input {
+      width: 100%;
+      color: #ffffff;
+      background: $secondary-color;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .loyal-login-password {
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+    }
+  }
+}
+
+.login-back-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}

@@ -1,0 +1,29 @@
+.base-input-block {
+  .base-input-label {
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: $primary-color;
+    padding-left: 5px;
+  }
+
+  .base-input {
+    margin: 0;
+    outline: none;
+    background-color: transparent;
+    background: #ffffff;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 16px;
+    color: $primary-color;
+    font-size: 16px;
+    line-height: 20px;
+
+    &:focus {
+      transition: 0.4s ease all;
+      border: 1px solid $primary-color;
+    }
+  }
+}

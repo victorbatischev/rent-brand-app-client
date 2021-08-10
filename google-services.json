@@ -1,0 +1,440 @@
+{
+  "project_info": {
+    "project_number": "83549060079",
+    "firebase_url": "https://mobile-loyalty-56b68.firebaseio.com",
+    "project_id": "mobile-loyalty-56b68",
+    "storage_bucket": "mobile-loyalty-56b68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:a5886a45f1b2194080541a",
+        "android_client_info": {
+          "package_name": "rent.brand.app.base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:5b2649e3336907ae80541a",
+        "android_client_info": {
+          "package_name": "com.milyutin.dima.mobileloyalty.polyglot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:842daa551381fe7c80541a",
+        "android_client_info": {
+          "package_name": "com.milyutin.dima.mobileloyalty.raki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:199482c88c55751780541a",
+        "android_client_info": {
+          "package_name": "com.milyutin.dima.mobileloyalty.score"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:4d321b36e6129ead80541a",
+        "android_client_info": {
+          "package_name": "com.milyutin.dima.mobileloyaltywork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:ed11c6f824844bd880541a",
+        "android_client_info": {
+          "package_name": "com.mobileloyalty.baseapp.loyalty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:da39c64711382fc380541a",
+        "android_client_info": {
+          "package_name": "com.mobileloyalty.krim.nakranach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:781f51b00baea11980541a",
+        "android_client_info": {
+          "package_name": "com.mobileloyalty.polyglot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:ee0f4b6d45c1f0a780541a",
+        "android_client_info": {
+          "package_name": "com.mobileloyalty.raki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:dfba280315880d3280541a",
+        "android_client_info": {
+          "package_name": "ru.citllc.dns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83549060079:android:4ab1809a8f5cadec80541a",
+        "android_client_info": {
+          "package_name": "ru.citllc.loyalty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeO5Vaz5kG4uUSGWINouS82N2rtBTETY"
+        },
+        {
+          "current_key": "AIzaSyCgk-hx3fDb4bPwkHzdnzHRYrvgTlCcWXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83549060079-guvibc706ahug1vevpclb1v5t49hlrht.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83549060079-701gprcsmokbm5a8kolflm82dk823iss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.milyutin.dima.mobileloyalty.loyal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

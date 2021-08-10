@@ -1,0 +1,29 @@
+{
+  "ios": {
+    "release": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    },
+    "development": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    },
+    "debug": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    }
+  },
+
+  "android": {
+      "release": {
+        "keystore": "keyStoreMLBaseApp.uu",
+        "storePassword": "lawapy",
+        "alias": "MLBaseAppScore",
+        "password": "lawapy523",
+        "keystoreType":"jks"
+    }
+  }
+}

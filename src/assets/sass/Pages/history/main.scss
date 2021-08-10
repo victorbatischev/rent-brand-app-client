@@ -1,0 +1,70 @@
+.history-item-content {
+  background: #f6f6f6;
+  box-shadow: inset 0px -1px 0px #e8e8e8;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.history-order-number {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2c2c2c;
+}
+
+.history-order-number-modal {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2c2c2c;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.history-order-date {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #909090;
+}
+
+.history-order-price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: $primary-color;
+  padding: 5px 0;
+}
+
+.history-order-noreview {
+  font-size: 16px;
+  line-height: 20px;
+  color: $tertiary-color;
+}
+
+.history-order-star {
+  font-size: 20px;
+  line-height: 20px;
+  color: #2c2c2c;
+  text-align: center;
+  margin: 15px;
+}
+
+.history-modal-review-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 0px 40px;
+}
+
+.history-modal-review {
+  position: absolute;
+  top: 50px;
+  right: -10px;
+  background: white;
+  width: 100%;
+  box-shadow: 0px -4px 60px rgba(46, 26, 80, 0.2);
+  padding: 10px;
+}

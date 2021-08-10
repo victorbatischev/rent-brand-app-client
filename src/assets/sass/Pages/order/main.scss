@@ -1,0 +1,62 @@
+.order-title {
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: $primary-color;
+  flex: 1;
+  justify-content: center;
+}
+
+.order-item-content {
+  background: #efefef;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.order-address-description {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2c2c2c;
+}
+
+.order-address-name {
+  font-size: 13px;
+  line-height: 20px;
+  color: #2c2c2c;
+}
+
+.order-payment {
+  width: 100%;
+  float: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  color: $primary-color;
+  margin-top: 30px;
+}
+
+.order-payment span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 3px 10px 0px 80px;
+  color: $primary-color;
+}
+
+.basket-total-price {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  line-height: 24px;
+  color: $primary-color;
+  margin: 30px 0px 20px 20px;
+}
+
+.order-payment-type {
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 12px;
+}

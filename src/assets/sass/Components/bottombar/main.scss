@@ -1,0 +1,72 @@
+.toolbar.tab-link {
+  all: unset !important;
+}
+
+.tabbar .link,
+.tabbar .tab-link,
+.tabbar-labels .link,
+.tabbar-labels {
+  all: unset !important;
+}
+
+.toolbar-bottom::after {
+  background-image: none;
+}
+
+.bottom-tabs {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  color: #e2e2e2;
+
+  .bottom-tab-item {
+    background: #f2f2f2;
+    padding: 9px;
+    border-radius: 10px;
+    color: #909090 !important;
+    animation: bottomTab 0.4s;
+    display: flex;
+
+    @keyframes bottomTab {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    &.active {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: $primary-color;
+      animation: activeBottomTab 0.2s;
+      color: #fff !important;
+
+      @keyframes activeBottomTab {
+        from {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+
+      .bottom-tab-route-name {
+        padding: 0px 10px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #fefefe;
+      }
+    }
+  }
+}

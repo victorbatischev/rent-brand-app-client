@@ -1,0 +1,62 @@
+.card-content.card-content-padding {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  background: #f6f6f6;
+}
+
+.discount-fortune-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: $primary-color;
+}
+
+.discount-fortune-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.discount-fortune-counter {
+  background: red;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-left: 5px;
+  border-radius: 8.5px;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discount-fortune-img {
+  width: 100%;
+}
+
+.demo-card-header-pic {
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(40, 22, 77, 0.5);
+}
+
+.discount-fortune {
+  padding-bottom: 20px;
+  margin: 28px 1px 28px 1px;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #030303;
+}
+
+.card-date {
+  font-size: 12px;
+  line-height: 16px;
+  color: #909090;
+  margin-top: 10px;
+}

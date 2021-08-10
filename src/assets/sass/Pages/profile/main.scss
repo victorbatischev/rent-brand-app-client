@@ -1,0 +1,176 @@
+.info-pencil-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $primary-color;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-top: -40px;
+  margin-bottom: 60px;
+
+  .info-pencil-icon {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+
+  .info-pencil-text {
+    font-size: 12px;
+  }
+}
+
+.info-inputs-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+  margin-bottom: 20px;
+
+  .info-name-input {
+    width: 100%;
+    margin-top: 25px;
+
+    ::placeholder {
+      color: $primary-color !important;
+      opacity: 1 !important;
+    }
+
+    :disabled {
+      color: $primary-color !important;
+      opacity: 1 !important;
+    }
+
+    input {
+      width: 100%;
+
+      :disabled {
+        color: $primary-color !important;
+        opacity: 1 !important;
+      }
+    }
+  }
+
+  .info-submit-button {
+    align-self: flex-end;
+    margin-top: 20px;
+    animation: showInfoSubmitButton 0.6s;
+    background: $tertiary-color;
+    color: #000;
+
+    @keyframes showInfoSubmitButton {
+      from {
+        opacity: 0;
+        transform: translateY(100%);
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .success {
+      color: #ffffff;
+      background: #909090;
+    }
+  }
+}
+
+.info-name-datepicker {
+  background-color: transparent;
+  position: absolute !important;
+  width: 100%;
+  padding-left: 5px;
+  margin-top: 45px;
+  color: $primary-color;
+}
+
+.info-date-input-block {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-toast {
+  width: 60%;
+  display: flex;
+  position: absolute;
+  background-color: $primary-color;
+  padding: 10px;
+  overflow-wrap: anywhere;
+  z-index: 100;
+  animation: showProfileToast 1s;
+
+  @keyframes showProfileToast {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  &.hide {
+    visibility: hidden;
+  }
+
+  &.close {
+    animation: closeProfileToast 1s;
+
+    @keyframes closeProfileToast {
+      from {
+        transform: translateX(0%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+  }
+
+  .profile-toast-text {
+    font-weight: bold;
+    color: #fff;
+  }
+}
+
+.info-privacy-block {
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  padding: 40px 0px 20px 0px;
+
+  .info-privacy-text {
+    color: #909090;
+    font-size: 13px;
+  }
+}
+
+.info-profile-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 30px;
+
+  color: #2c2c2c;
+}
+
+.info-profile-phone {
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2c2c2c;
+}
+
+.profile-button {
+  color: #2c2c2c;
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  box-shadow: inset 0px -1px 0px #e8e8e8;
+  border-radius: 10px;
+
+  img {
+    margin-right: 10px;
+  }
+}
